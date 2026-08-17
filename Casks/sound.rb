@@ -25,13 +25,4 @@ cask "sound" do
     "~/Library/Application Support/EQ by CPL OF MANGS",
     "~/Library/Preferences/com.fekryaiad.EQByCPLOFMANGS.plist",
   ]
-
-  # Builds are currently ad-hoc signed (not notarized), so Gatekeeper blocks
-  # the first launch unless the quarantine flag is skipped at install time.
-  caveats <<~EOS
-    SOUND is not yet notarized. If macOS blocks the first launch, either
-    right-click SOUND.app and choose Open, or reinstall with:
-
-      brew reinstall --cask --no-quarantine #{token}
-  EOS
 end
