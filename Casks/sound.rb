@@ -1,6 +1,6 @@
 cask "sound" do
-  version "0.3.6"
-  sha256 "1212529da61d530a9ba944ea13f44dfead83f2991211ca02c3eca5da6341adb5"
+  version "0.3.7"
+  sha256 "008ad7d7e80dd1595d7387d62dc4f8cf8f1cb180ad4ca62681ad5f64cda29ed4"
 
   url "https://www.cplofmngs.com/downloads/SOUND-#{version}.dmg"
   name "SOUND"
