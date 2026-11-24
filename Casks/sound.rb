@@ -1,6 +1,6 @@
 cask "sound" do
-  version "0.3.13"
-  sha256 "ef46b532d459d6747a33615a742b239e8cbc7d9ef45989197a63c42e9c574cb3"
+  version "0.3.14"
+  sha256 "e86f92087bf3fe3d62e828f6bea919ddd3875b7603fa475e5db5fd61b888c8d6"
 
   # Served from this tap's GitHub Releases, not the website, so every install
   # and upgrade shows up in GitHub's per-release download count. Browser
